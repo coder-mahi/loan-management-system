@@ -1,4 +1,6 @@
 package com.mahesh.beans;
+import com.mahesh.beans.Dept;
+// target class
 public class Emp
 {
     private int eno;
