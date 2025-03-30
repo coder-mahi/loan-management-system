@@ -6,6 +6,7 @@ public class Emp
     private int eno;
     private String ename;
     private Dept dept;
+    //setter injections  -----> use p: in configuration file
     public void setEno(int eno){
         this.eno = eno;
     }
@@ -28,6 +29,6 @@ public class Emp
 
     @Override
     public String toString(){
-        return "Emp= [eno="+eno+",ename="+ename+",dept="+dept+"];";
+        return "Emp=[eno="+eno+", ename="+ename+", dept="+dept+"];";
     }
 }

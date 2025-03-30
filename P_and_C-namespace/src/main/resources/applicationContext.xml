@@ -1,3 +1,5 @@
+<!-- use c: when constructor injection -->
+<!-- use p: when setter injection -->
 <beans
     xmlns="http://www.springframework.org/schema/beans"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
@@ -7,8 +9,8 @@
                         http://www.springframework.org/schema/beans/spring-beans.xsd">
 
 <bean id="dt" class="java.util.Date" p:year="115"
-                                            p:month="10"
-                                            p:date="20"/>
+                                    p:month="10"
+                                    p:date="20"/>
 
 <!-- dependent class config -->
     <bean id="dept" class="com.mahesh.beans.Dept"
