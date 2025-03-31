@@ -11,7 +11,7 @@ import java.util.Properties;
 
 public class RecordsCountJdbcApp {
     public static void main(String[] args) throws Exception{
-        InputStream is = new FileInputStream("src/main/java/commans/DBDetails.properties");
+        InputStream is = new FileInputStream("src/main/java/commons/DBDetails.properties");
         Properties props = new Properties();
         props.load(is);
 
